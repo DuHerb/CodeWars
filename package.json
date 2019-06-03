@@ -1,12 +1,13 @@
 {
-  "name": "jest-rig",
+  "name": "code-wars",
   "version": "1.0.0",
-  "description": "javascript testing environment using jest, webpack, eslint and babel",
+  "description": "repo for testing CodeWars solutions",
   "scripts": {
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "jest --watchAll --coverage --verbose"
+    "test": "jest --watchAll --coverage",
+    "babel": "./node_modules/.bin/babel src --out-dir lib"
   },
   "keywords": [],
   "author": "Dustin Herboldshimer",

@@ -34,8 +34,8 @@ module.exports = {
   devtool: 'eval-source-map',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    compress: true,
-    watchContentBase: true,
+    // compress: true,
+    // watchContentBase: true,
     open: 'Google Chrome'
   }
 };
